@@ -7,6 +7,6 @@ entry_points:
       hydra_options:
         description: Hydra parameters to override
         type: str
-        default: ''
+        default: ""
     command: >-
       python main.py $(echo {hydra_options})
